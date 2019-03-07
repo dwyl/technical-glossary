@@ -72,6 +72,28 @@ System (DNS)**.
 names (and other internet resources). The directory stores already registered
 domain names along with their corresponding IP addresses.
 
+**Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
+declarations to the top of the current **scope**  when your code is run. What
+this means is that whatever line your write a `var` declaration on e.g. `var x;`,
+when your code is run it will automatically be lifted and read as if it were
+written on the top lines of your current **scope** (to the top of the current
+script or the current function).
+
+This means that you can use `var`'s higher up in the code before the line you've
+declared them on. So this example:
+```
+x = "hello";
+console.log(x)     // logs 'hello'
+var x;            //  declaring `x` which is hoisted as if it were written at the top on compilation
+```
+
+Is read by the computer like this:
+```
+var x;            //  declaring `x` which has been hoisted to the top line on compilation
+x = "hello";
+console.log(x)     // logs 'hello'
+```
+
 **Hypertext Transfer Protocol (HTTP)** - the set of rules for transferring files
 (text, graphic images, sound, video, and other multimedia files) on the World
 Wide Web. When you enter http:// in your address bar in front of the domain, it
