@@ -37,6 +37,9 @@ fingerprint/biometric method.
 certain action or to see a given page. E.g. admin users are authorised to create
 new users on the website.
 
+**Declarations** - in JavaScript declarations are `var`, `const` and `let` for
+the creation of variables.
+
 **CSS Box Model** - the concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
 actual content.
@@ -98,6 +101,9 @@ console.log(x)     // logs 'hello'
 (text, graphic images, sound, video, and other multimedia files) on the World
 Wide Web. When you enter http:// in your address bar in front of the domain, it
 tells the browser to connect over HTTP.
+
+**Initialisation** - defining a variable and providing it with an initial value: 
+e.g. `var x = 1;`.
 
 **Internet Protocol (IP) Address** - a unique series of numbers or hexadecimal
 digits used to identify a website.
