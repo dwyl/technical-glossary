@@ -129,3 +129,10 @@ if(x)
 else
  { b }
 ```
+
+**[Technical Debt](https://en.wikipedia.org/wiki/Technical_debt)** - Technical
+debt is the time/cost of "re-working" a feature (or entire app) because corners
+were cut the first time it was built. Think of Technical Debt like a "loan shark"
+for your project, if you take "shortcuts" to implement a feature quickly (e.g:
+by skipping tests) you will pay for it later and usually with "interest". For
+a fuller definition see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
