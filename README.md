@@ -12,8 +12,8 @@ happy learning :blush: :muscle:
 
 ### What?
 
-A technical glossary for key words. These definitions are by no means exhaustive
-but aim to be easy to understand and bite-sized for quick access.
+A technical glossary for key words. These definitions are deliberately succinct,
+they aim to be easy to understand and bite-sized for quick access.
 
 ### How?
 
@@ -99,7 +99,8 @@ console.log(x)     // logs 'hello'
 Wide Web. When you enter http:// in your address bar in front of the domain, it
 tells the browser to connect over HTTP.
 
-**Internet Protocol (IP) Address** - a unique series of numbers used to identify a website.
+**Internet Protocol (IP) Address** - a unique series of numbers or hexadecimal
+digits used to identify a website.
 
 **Microservices** - the practice of running multiple web/application servers
 simultaneously. It is a widely accepted/used application architecture used in
