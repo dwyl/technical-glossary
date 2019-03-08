@@ -16,8 +16,8 @@ happy learning :blush: :muscle:
 
 ### What?
 
-A technical glossary for key words 
-you will encounter in your journey through learning creative technology. 
+A technical glossary for key words
+you will encounter in your journey through learning creative technology.
 These definitions are deliberately succinct,
 they aim to be easy to understand and bite-sized for quick access.
 
@@ -44,7 +44,7 @@ certain action or to see a given page. E.g. admin users are authorised to create
 new users on the website.
 
 **Declarations** - in JavaScript declarations are `var`, `const` and `let` for
-the creation of variables.
+the creation of variables, constants and lexically scoped variables.
 
 **CSS Box Model** - the concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
@@ -108,7 +108,7 @@ console.log(x)     // logs 'hello'
 Wide Web. When you enter http:// in your address bar in front of the domain, it
 tells the browser to connect over HTTP.
 
-**Initialisation** - defining a variable and providing it with an initial value: 
+**Initialisation** - defining a variable and providing it with an initial value:
 e.g. `var x = 1;`.
 
 **Internet Protocol (IP) Address** - a unique series of numbers or hexadecimal
@@ -122,6 +122,20 @@ most companies. Lambda Functions are an example of a micro Node.js Server.
 when a parent class is used to refer to a child class object. **Operator
 overloading** is one form of polymorphism. It is not used in Javascript but is a
 feature of C++, Scala, Ruby, Haskell and Rust.
+
+**Progressive Web App (PWA)** - PWAs are traditional websites that are enhanced
+with modern web technologies, allowing them to provide a more app-like
+experience. They offer functionality such as being saved as a tile on your
+mobile home screen, working offline and push notifications. The “progressive”
+part means they’re “progressively enhanced” with newer features, which means
+they’ll also work in older browsers that don’t support the new features. Unlike
+native apps, they don't have to be updated/listed in the app store although it
+is possible to list them in the app store when this is desired.
+
+**[Regression Testing](https://www.softwaretestingmaterial.com/regression-testing/)** -
+the re-running of existing tests to ensure that new changes/fixes have not
+broken any existing functionality. We should perform regression testing any time
+we modify an application, automated testing is a convenient way to achieve this.
 
 **REPL (READ, EVAL, PRINT, LOOP)** - a REPL is an interactive toplevel or
 language shell. A simple, interactive computer programming environment that
@@ -170,7 +184,7 @@ debt is the time/cost of "re-working" a feature (or entire app) because corners
 were cut the first time it was built. Think of Technical Debt like a "loan shark"
 for your project, if you take "shortcuts" to implement a feature quickly (e.g:
 by skipping tests) you will pay for it later and usually with "interest". For
-a fuller definition see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
+more detail see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
 
 **[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)** -
 TCP is a protocol which exists to enable the establishment of a connection and
