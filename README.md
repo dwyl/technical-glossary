@@ -1,10 +1,14 @@
 # Technical Glossary
 
+This glossary is ever-evolving and relies on the contributions of people like
+you for new word suggestions :heart:. If you've got a word you'd like a definition
+please create an issue: [github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new)
+
 ### Why?
 Have you ever learnt something cool in coding without knowing what it's actually
 called? Or have you ever been reading about a concept only to get lost in the
 number of acronyms and other technical words used to describe what you're
-learning about?
+learning about? 🤔
 
 This resource has been created to provide quick access, simple and easy to
 understand definitions to stop big words getting in the way of what could be
@@ -12,7 +16,9 @@ happy learning :blush: :muscle:
 
 ### What?
 
-A technical glossary for key words. These definitions are deliberately succinct,
+A technical glossary for key words 
+you will encounter in your journey through learning creative technology. 
+These definitions are deliberately succinct,
 they aim to be easy to understand and bite-sized for quick access.
 
 ### How?
