@@ -12,8 +12,8 @@ happy learning :blush: :muscle:
 
 ### What?
 
-A technical glossary for key words. These definitions are by no means exhaustive
-but aim to be easy to understand and bite-sized for quick access.
+A technical glossary for key words. These definitions are deliberately succinct,
+they aim to be easy to understand and bite-sized for quick access.
 
 ### How?
 
@@ -36,6 +36,9 @@ fingerprint/biometric method.
 **Authorization** - check that you are authorised (have permission) to perform a
 certain action or to see a given page. E.g. admin users are authorised to create
 new users on the website.
+
+**Declarations** - in JavaScript declarations are `var`, `const` and `let` for
+the creation of variables.
 
 **CSS Box Model** - the concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
@@ -72,12 +75,38 @@ System (DNS)**.
 names (and other internet resources). The directory stores already registered
 domain names along with their corresponding IP addresses.
 
+**Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
+declarations to the top of the current **scope**  when your code is run. What
+this means is that whatever line your write a `var` declaration on e.g. `var x;`,
+when your code is run it will automatically be lifted and read as if it were
+written on the top lines of your current **scope** (to the top of the current
+script or the current function).
+
+This means that you can use `var`'s higher up in the code before the line you've
+declared them on. So this example:
+```
+x = "hello";
+console.log(x)     // logs 'hello'
+var x;            //  declaring `x` which is hoisted as if it were written at the top on compilation
+```
+
+Is read by the computer like this:
+```
+var x;            //  declaring `x` which has been hoisted to the top line on compilation
+x = "hello";
+console.log(x)     // logs 'hello'
+```
+
 **Hypertext Transfer Protocol (HTTP)** - the set of rules for transferring files
 (text, graphic images, sound, video, and other multimedia files) on the World
 Wide Web. When you enter http:// in your address bar in front of the domain, it
 tells the browser to connect over HTTP.
 
-**Internet Protocol (IP) Address** - a unique series of numbers used to identify a website.
+**Initialisation** - defining a variable and providing it with an initial value: 
+e.g. `var x = 1;`.
+
+**Internet Protocol (IP) Address** - a unique series of numbers or hexadecimal
+digits used to identify a website.
 
 **Microservices** - the practice of running multiple web/application servers
 simultaneously. It is a widely accepted/used application architecture used in
