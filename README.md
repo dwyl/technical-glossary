@@ -185,3 +185,17 @@ were cut the first time it was built. Think of Technical Debt like a "loan shark
 for your project, if you take "shortcuts" to implement a feature quickly (e.g:
 by skipping tests) you will pay for it later and usually with "interest". For
 more detail see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
+
+**[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)** -
+TCP is a protocol which exists to enable the establishment of a connection and
+the exchange of streams of data (multiple
+[data packets](https://www.techopedia.com/definition/6751/data-packet)) between
+one or more computers. TCP guarantees the delivery of data and that packets will
+be delivered in the same order in which they were sent.
+
+**[Transmission Control Protocol (TCP) handshake](https://www.techopedia.com/definition/10339/three-way-handshake)** -
+A TCP handshake or three-way handshake is the first part in a three part process
+for TCP data transfer between a local host/client and a server. The handshake is
+a three-step method that requires both the client and server to exchange SYN and
+ACK (acknowledgment) packets to establish a connection before actual data
+communication begins.
