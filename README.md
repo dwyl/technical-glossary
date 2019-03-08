@@ -123,6 +123,9 @@ when a parent class is used to refer to a child class object. **Operator
 overloading** is one form of polymorphism. It is not used in Javascript but is a
 feature of C++, Scala, Ruby, Haskell and Rust.
 
+**Regression Testing** - the re-running of existing tests to ensure that new
+changes/fixes have not broken any existing functionality.
+
 **REPL (READ, EVAL, PRINT, LOOP)** - a REPL is an interactive toplevel or
 language shell. A simple, interactive computer programming environment that
 takes single user inputs (i.e. single expressions), evaluates them, and returns
