@@ -16,7 +16,7 @@ happy learning :blush: :muscle:
 
 ### What?
 
-A technical glossary for key words :books:. These definitions are by no means
+A technical glossary for key words 📚. These definitions are by no means
 exhaustive but aim to be easy to understand and bite-sized for quick access.
 
 ### How?
