@@ -132,8 +132,10 @@ they’ll also work in older browsers that don’t support the new features. Unl
 native apps, they don't have to be updated/listed in the app store although it
 is possible to list them in the app store when this is desired.
 
-**Regression Testing** - the re-running of existing tests to ensure that new
-changes/fixes have not broken any existing functionality.
+**[Regression Testing](https://www.softwaretestingmaterial.com/regression-testing/)** -
+the re-running of existing tests to ensure that new changes/fixes have not
+broken any existing functionality. We should perform regression testing any time
+we modify an application, automated testing is a convenient way to achieve this.
 
 **REPL (READ, EVAL, PRINT, LOOP)** - a REPL is an interactive toplevel or
 language shell. A simple, interactive computer programming environment that
