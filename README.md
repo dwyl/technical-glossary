@@ -108,7 +108,7 @@ console.log(x)     // logs 'hello'
 Wide Web. When you enter http:// in your address bar in front of the domain, it
 tells the browser to connect over HTTP.
 
-**Initialisation** - defining a variable and providing it with an initial value: 
+**Initialisation** - defining a variable and providing it with an initial value:
 e.g. `var x = 1;`.
 
 **Internet Protocol (IP) Address** - a unique series of numbers or hexadecimal
@@ -122,6 +122,15 @@ most companies. Lambda Functions are an example of a micro Node.js Server.
 when a parent class is used to refer to a child class object. **Operator
 overloading** is one form of polymorphism. It is not used in Javascript but is a
 feature of C++, Scala, Ruby, Haskell and Rust.
+
+**Progressive Web App (PWA)** - PWAs are traditional websites that are enhanced
+with modern web technologies, allowing them to provide a more app-like
+experience. They offer functionality such as being saved as a tile on your
+mobile home screen, working offline and push notifications. The “progressive”
+part means they’re “progressively enhanced” with newer features, which means
+they’ll also work in older browsers that don’t support the new features. Unlike
+native apps, they don't have to be updated/listed in the app store although it
+is possible to list them in the app store when this is desired.
 
 **Regression Testing** - the re-running of existing tests to ensure that new
 changes/fixes have not broken any existing functionality.
