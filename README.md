@@ -16,8 +16,8 @@ happy learning :blush: :muscle:
 
 ### What?
 
-A technical glossary for key words 
-you will encounter in your journey through learning creative technology. 
+A technical glossary for key words
+you will encounter in your journey through learning creative technology.
 These definitions are deliberately succinct,
 they aim to be easy to understand and bite-sized for quick access.
 
@@ -44,7 +44,7 @@ certain action or to see a given page. E.g. admin users are authorised to create
 new users on the website.
 
 **Declarations** - in JavaScript declarations are `var`, `const` and `let` for
-the creation of variables.
+the creation of variables, constants and lexically scoped variables.
 
 **CSS Box Model** - the concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
@@ -182,4 +182,4 @@ debt is the time/cost of "re-working" a feature (or entire app) because corners
 were cut the first time it was built. Think of Technical Debt like a "loan shark"
 for your project, if you take "shortcuts" to implement a feature quickly (e.g:
 by skipping tests) you will pay for it later and usually with "interest". For
-a fuller definition see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
+more detail see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
