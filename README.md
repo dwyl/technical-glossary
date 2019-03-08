@@ -2,7 +2,7 @@
 
 This glossary is ever-evolving and relies on the contributions of people like
 you for new word suggestions :heart:. If you've got a word you'd like a definition
-please create an issue.
+please create an issue: [github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new)
 
 ### Why?
 Have you ever learnt something cool in coding without knowing what it's actually
