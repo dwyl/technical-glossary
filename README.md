@@ -46,7 +46,7 @@ new users on the website.
 **Declarations** - in JavaScript declarations are `var`, `const` and `let` for
 the creation of variables, constants and lexically scoped variables.
 
-**Closures** - the scope where a variable can be accessed. A function used within another function can access the parent function's variables since its scope extends to its parent.
+**Closure** - the scope where a variable can be accessed. A function used within another function can access the parent function's variables since its scope extends to its parent.
 
 In this example, the variable `color` is accessible to the function `displayColor()`.
 
