@@ -46,7 +46,7 @@ new users on the website.
 **Declarations** - in JavaScript declarations are `var`, `const` and `let` for
 the creation of variables, constants and lexically scoped variables.
 
-**Closures** - the scope where a function can access a variable. A function used within another function can access the parent function's variables since its environment extends to the level it was declared or called in.
+**Closures** - the scope where a variable can be accessed. A function used within another function can access the parent function's variables since its scope extends to its parent.
 
 In this example, the variable `color` is accessible to the function `displayColor()`.
 
@@ -94,10 +94,6 @@ System (DNS)**.
 **Domain Name System (DNS)** - a distributed global directory of website domain
 names (and other internet resources). The directory stores already registered
 domain names along with their corresponding IP addresses.
-
-**Functional Programming (FP)** - The [learn-elm](https://github.com/dwyl/learn-elm) and [learn-elixir](https://github.com/dwyl/learn-elixir) repos use functional programming.
-
-**Higher Order Function** - functions that are used to 
 
 **Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
 declarations to the top of the current **scope**  when your code is run. What
