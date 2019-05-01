@@ -46,6 +46,20 @@ new users on the website.
 **Declarations** - in JavaScript declarations are `var`, `const` and `let` for
 the creation of variables, constants and lexically scoped variables.
 
+**Closure** - the scope where a variable can be accessed. A function used within another function can access the parent function's variables since its scope extends to its parent.
+
+In this example, the variable `color` is accessible to the function `displayColor()`.
+
+```
+function color() {
+    var color = 'red';
+    function displayColor() {
+        alert(color);
+    }
+    displayColor();
+}
+```
+
 **CSS Box Model** - the concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
 actual content.
