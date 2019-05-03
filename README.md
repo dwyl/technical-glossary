@@ -95,6 +95,10 @@ System (DNS)**.
 names (and other internet resources). The directory stores already registered
 domain names along with their corresponding IP addresses.
 
+**Hexadecimal** - Uses 16 different symbols. "0"-"9" to represent the values
+0 to 9 and "A"-"F" ("a"-"f" is acceptable too) to represent the values 10 to 15. It's common to use
+hexadecimals when working in CSS to assign colors to your elements (ex: #000000 is black).
+
 **Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
 declarations to the top of the current **scope**  when your code is run. What
 this means is that whatever line your write a `var` declaration on e.g. `var x;`,
