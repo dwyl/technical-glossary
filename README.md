@@ -100,16 +100,18 @@ hexadecimals when working in CSS to assign colors to your elements.
 
 The hexadecimal for dwyl's logo color is #4bc0a9(teal).
 To convert the hexadecimal into RGB values, do the following:
+R = 4b
+G = c0
+B = a9
 Convert the letters to their numerical value.
 b = 11
 c = 12
 a = 10
-So now there are only numbers: 4, 11, 12, 0, 10, 9
 Red: 4 * (16^1) + 11 * (16^0) = 75
 Green: 12 * (16^1) + 0 * (16^0) = 192
 Blue: 10 * (16^1) + 9 * (16^0) = 169
 
-This gives the rgb(75,192,169) for the same color.
+Hex: #4bc0a9 is RGB: 75, 192, 169.
 
 
 **Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
