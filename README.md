@@ -95,7 +95,7 @@ System (DNS)**.
 names (and other internet resources). The directory stores already registered
 domain names along with their corresponding IP addresses.
 
-**Hexadecimal** - Uses 16 different symbols. "0"-"9" to represent the values
+**[Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)** - Uses 16 different symbols. "0"-"9" to represent the values
 0 to 9 and "A"-"F" ("a"-"f" is acceptable too) to represent the values 10 to 15. It's common to use
 hexadecimals when working in CSS to assign colors to your elements (ex: #000000 is black).
 
