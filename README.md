@@ -95,9 +95,22 @@ System (DNS)**.
 names (and other internet resources). The directory stores already registered
 domain names along with their corresponding IP addresses.
 
-**[Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)** - Uses 16 different symbols. "0"-"9" to represent the values
-0 to 9 and "A"-"F" ("a"-"f" is acceptable too) to represent the values 10 to 15. It's common to use
-hexadecimals when working in CSS to assign colors to your elements (ex: #000000 is black).
+**[Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)** - Uses 16 different symbols. "0"-"9" to represent the values 0 to 9 and "A"-"F" ("a"-"f" is acceptable too) to represent the values 10 to 15. It's common to use
+hexadecimals when working in CSS to assign colors to your elements.
+
+The hexadecimal for dwyl's logo color is #4bc0a9(teal).
+To convert the hexadecimal into RGB values, do the following:
+Convert the letters to their numerical value.
+b = 11
+c = 12
+a = 10
+So now there are only numbers: 4, 11, 12, 0, 10, 9
+Red: 4 * (16^1) + 11 * (16^0) = 75
+Green: 12 * (16^1) + 0 * (16^0) = 192
+Blue: 10 * (16^1) + 9 * (16^0) = 169
+
+This gives the rgb(75,192,169) for the same color.
+
 
 **Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
 declarations to the top of the current **scope**  when your code is run. What
