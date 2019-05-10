@@ -83,16 +83,23 @@ different domains using Amazon S3. For more about origin policies see
 'Same-origin Policy'.
 
 **[Destructuring assignment](https://en.wikipedia.org/wiki/JavaScript_syntax#Destructuring_assignment)** - 
-the ability to unpack and assign variables when there are multiple parameters. This gives us the option to handle it all at a time.
+the ability to unpack and assign variables when there are multiple parameters.
 
 A way to simply assign the variables and then swap their values.
-```
+```js
 let x, y;
 [x, y] = [5, 6];
 // x = 5, y = 6
 [y, x] = [x, y];
 // x = 6, y = 5
 ```
+To assign values from an object.
+```js
+let obj = { 'a': 1, 'b': {'b1': '1.1'}}
+let {a, b, b:{b1}} = obj
+// a = 1, b = {'b1': '1.1'}, b1 = 1.1
+```
+There is an extensive list found [here](https://stackoverflow.com/questions/54605286/what-is-destructuring-assignment-and-its-uses) for more examples.
 
 **Domain Name** - the characters/words used to identify a website after `http://` or
 `www.`. The domain name consists of two parts. Take this example:
