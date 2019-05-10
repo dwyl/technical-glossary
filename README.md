@@ -82,6 +82,18 @@ the domain from which the first resource was served. E.g. uploading images using
 different domains using Amazon S3. For more about origin policies see
 'Same-origin Policy'.
 
+**[Destructuring assignment](https://en.wikipedia.org/wiki/JavaScript_syntax#Destructuring_assignment)** - 
+the ability to unpack and assign variables when there are multiple parameters. This gives us the option to handle it all at a time.
+
+A way to simply assign the variables and then swap their values.
+```
+let x, y;
+[x, y] = [5, 6];
+// x = 5, y = 6
+[y, x] = [x, y];
+// x = 6, y = 5
+```
+
 **Domain Name** - the characters/words used to identify a website after `http://` or
 `www.`. The domain name consists of two parts. Take this example:
 `https://dwyl.com`, `dwyl` makes up the **second level domain (SLD)** which is
