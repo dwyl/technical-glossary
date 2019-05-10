@@ -50,7 +50,7 @@ the creation of variables, constants and lexically scoped variables.
 
 In this example, the variable `color` is accessible to the function `displayColor()`.
 
-```
+```js
 function color() {
     var color = 'red';
     function displayColor() {
@@ -145,14 +145,14 @@ script or the current function).
 
 This means that you can use `var`'s higher up in the code before the line you've
 declared them on. So this example:
-```
+```js
 x = "hello";
 console.log(x)     // logs 'hello'
 var x;            //  declaring `x` which is hoisted as if it were written at the top on compilation
 ```
 
 Is read by the computer like this:
-```
+```js
 var x;            //  declaring `x` which has been hoisted to the top line on compilation
 x = "hello";
 console.log(x)     // logs 'hello'
@@ -227,7 +227,7 @@ considered "syntactic sugar" if it could be removed from the language without
 removing any functionality on what the language can do. For example ternary
 operators in Javascript: `x ? a : b` doesn't require the ternary operator syntax
 it could also be expressed with an `if/else` statement:
-```
+```js
 if(x)
  { a }
 else
