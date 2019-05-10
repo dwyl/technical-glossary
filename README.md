@@ -82,7 +82,7 @@ the domain from which the first resource was served. E.g. uploading images using
 different domains using Amazon S3. For more about origin policies see
 'Same-origin Policy'.
 
-**[Destructuring assignment](https://en.wikipedia.org/wiki/JavaScript_syntax#Destructuring_assignment)** - 
+**[Destructuring Assignment](https://en.wikipedia.org/wiki/JavaScript_syntax#Destructuring_assignment)** - 
 the ability to unpack and assign variables when there are multiple parameters.
 
 A way to simply assign the variables and then swap their values.
