@@ -158,7 +158,7 @@ x = "hello";
 console.log(x)     // logs 'hello'
 ```
 
-**[Higher-order Function](https://en.wikipedia.org/wiki/Higher-order_function)** - Functions that take other functions as parameters. Some examples of these types of functions are the [`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) method used for arrays. They both accept a function as a parameter to use on the elements in the given array.
+**[Higher-order Function](https://en.wikipedia.org/wiki/Higher-order_function)** - Functions that take other functions as parameters and/or return a function. Some examples of these types of functions are the [`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) method used for arrays. They both accept a function to use on the elements in the given array.
 
 **Hypertext Transfer Protocol (HTTP)** - the set of rules for transferring files
 (text, graphic images, sound, video, and other multimedia files) on the World
