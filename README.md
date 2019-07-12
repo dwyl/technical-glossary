@@ -158,6 +158,24 @@ x = "hello";
 console.log(x)     // logs 'hello'
 ```
 
+**[Higher-order Function](https://en.wikipedia.org/wiki/Higher-order_function)** - Functions that take other functions as parameters and/or return a function. Some examples of these types of functions are the [`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) method used for arrays. They both accept a function to use on the elements in the given array.
+
+```js
+// perform an action twice
+function twice (func, value) {
+  return func(func(value));
+}
+
+// func can be any simple (preferably pure) function:
+function func (value) {
+  return value + 3;
+}
+
+console.log(twice(func, 1)); // 7
+console.log(twice(func, 7)); // 13
+```
+Not to be confused with pure functions, [this comment](https://github.com/dwyl/learn-redux/issues/40#issuecomment-272489779) explains the difference between the variations.
+
 **Hypertext Transfer Protocol (HTTP)** - the set of rules for transferring files
 (text, graphic images, sound, video, and other multimedia files) on the World
 Wide Web. When you enter http:// in your address bar in front of the domain, it
