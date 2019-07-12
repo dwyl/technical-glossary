@@ -174,6 +174,7 @@ function func (value) {
 console.log(twice(func, 1)); // 7
 console.log(twice(func, 7)); // 13
 ```
+Not to be confused with pure functions, [this comment](https://github.com/dwyl/learn-redux/issues/40#issuecomment-272489779) explains the difference between the variations.
 
 **Hypertext Transfer Protocol (HTTP)** - the set of rules for transferring files
 (text, graphic images, sound, video, and other multimedia files) on the World
