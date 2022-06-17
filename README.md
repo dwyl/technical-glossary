@@ -1,10 +1,23 @@
+<div align="center">
+
 # Technical Glossary
 
-This glossary is ever-evolving and relies on the contributions of people like
-you for new word suggestions :heart:. If you've got a word you'd like a definition
-please create an issue: [github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new)
+This glossary is ever-evolving 
+and relies on the contributions 
+of people like _you_ 
+for new word suggestions ❤️. <br />
+If you don't find the technical term you 
+would like a definition for,
+please create an issue: 
+[github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new) 
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/technical-glossary/issues)
+[![HitCount](http://hits.dwyl.com/dwyl/technical-glossary.svg)](http://hits.dwyl.com/dwyl/technical-glossary)
+
+</div>
 
 ### Why?
+
 Have you ever learnt something cool in coding without knowing what it's actually
 called? Or have you ever been reading about a concept only to get lost in the
 number of acronyms and other technical words used to describe what you're
@@ -238,7 +251,36 @@ describe what they contain/are being used for E.g. a `<p>` tag indicates that th
 text within it is a paragraph whereas a `<nav>` tag should contain navigation
 content and a `<footer>` should appear at the end of the page.
 
-**Syntactic Sugar** - syntactic sugar refers to syntax in a language that is
+### Spike
+
+A **spike** is a product development method 
+that uses the **_simplest_ possible experiment** 
+to explore potential solutions.
+It can be just a basic design/interface test (wireframe)
+or a technical exploration often called a proof of concept (POC).
+See: https://en.wikipedia.org/wiki/Spike_(software_development)
+
+**`@dwyl`** our **spike** mini-projects 
+are usually **time-boxed** 
+anything from an hour to a day of effort.
+The **objective** is to **capture the _learning_**
+as much as it is to test the interface or technical implementation.
+Therefore we always create a new GitHub repo to _capture_ the experiment.
+Sometimes we will include the word "spike" in the repo,
+e.g: https://github.com/dwyl?q=spike
+Other times, we will _expand_ the repo into an **_example_ app**
+that is more of a **tutorial** that _anyone_ can follow,
+e.g: https://github.com/orgs/dwyl/repositories?q=example
+
+However much detail you include in your spike,
+remember that the objective of the experiement is 
+_communicating_ what you tried.
+It's not enough for _you_ to know that it worked (or failed),
+you need to **share _everything_ you learned** along the way.
+
+### Syntactic Sugar
+
+Syntactic sugar refers to syntax in a language that is
 designed to make things easier to read. The syntax makes the language "sweeter"
 to use as things can be expressed more clearly or concisely. Something can be
 considered "syntactic sugar" if it could be removed from the language without
@@ -252,23 +294,30 @@ else
  { b }
 ```
 
-**[Technical Debt](https://en.wikipedia.org/wiki/Technical_debt)** - Technical
-debt is the time/cost of "re-working" a feature (or entire app) because corners
+### Technical Debt
+
+**[Technical Debt](https://en.wikipedia.org/wiki/Technical_debt)** is the time/cost of "re-working" a feature (or entire app) because corners
 were cut the first time it was built. Think of Technical Debt like a "loan shark"
 for your project, if you take "shortcuts" to implement a feature quickly (e.g:
 by skipping tests) you will pay for it later and usually with "interest". For
 more detail see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
 
-**[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)** -
-TCP is a protocol which exists to enable the establishment of a connection and
+## Transmission Control Protocol (TCP)
+
+**[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)**
+is a protocol which exists to enable the establishment of a connection and
 the exchange of streams of data (multiple
 [data packets](https://www.techopedia.com/definition/6751/data-packet)) between
 one or more computers. TCP guarantees the delivery of data and that packets will
 be delivered in the same order in which they were sent.
 
-**[Transmission Control Protocol (TCP) handshake](https://www.techopedia.com/definition/10339/three-way-handshake)** -
-A TCP handshake or three-way handshake is the first part in a three part process
-for TCP data transfer between a local host/client and a server. The handshake is
-a three-step method that requires both the client and server to exchange SYN and
-ACK (acknowledgment) packets to establish a connection before actual data
+A **[Transmission Control Protocol (TCP) handshake](https://www.techopedia.com/definition/10339/three-way-handshake)**
+is the first part in a three part process
+for TCP data transfer 
+between a local host/client and a server. 
+The handshake is a three-step method 
+that requires both the client 
+and server to exchange SYN 
+and ACK (acknowledgment) packets 
+to establish a connection before actual data
 communication begins.
