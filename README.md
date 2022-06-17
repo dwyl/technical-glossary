@@ -5,8 +5,8 @@
 This glossary is ever-evolving 
 and relies on the contributions 
 of people like _you_ 
-for new word suggestions ❤️. 
-If a technical term you 
+for new word suggestions ❤️. <br />
+If you don't find the technical term you 
 would like a definition for,
 please create an issue: 
 [github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new) 
@@ -278,9 +278,9 @@ _communicating_ what you tried.
 It's not enough for _you_ to know that it worked (or failed),
 you need to **share _everything_ you learned** along the way.
 
+### Syntactic Sugar
 
-
-**Syntactic Sugar** - syntactic sugar refers to syntax in a language that is
+Syntactic sugar refers to syntax in a language that is
 designed to make things easier to read. The syntax makes the language "sweeter"
 to use as things can be expressed more clearly or concisely. Something can be
 considered "syntactic sugar" if it could be removed from the language without
@@ -294,23 +294,30 @@ else
  { b }
 ```
 
-**[Technical Debt](https://en.wikipedia.org/wiki/Technical_debt)** - Technical
-debt is the time/cost of "re-working" a feature (or entire app) because corners
+### Technical Debt
+
+**[Technical Debt](https://en.wikipedia.org/wiki/Technical_debt)** is the time/cost of "re-working" a feature (or entire app) because corners
 were cut the first time it was built. Think of Technical Debt like a "loan shark"
 for your project, if you take "shortcuts" to implement a feature quickly (e.g:
 by skipping tests) you will pay for it later and usually with "interest". For
 more detail see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
 
-**[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)** -
-TCP is a protocol which exists to enable the establishment of a connection and
+## Transmission Control Protocol (TCP)
+
+**[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)**
+is a protocol which exists to enable the establishment of a connection and
 the exchange of streams of data (multiple
 [data packets](https://www.techopedia.com/definition/6751/data-packet)) between
 one or more computers. TCP guarantees the delivery of data and that packets will
 be delivered in the same order in which they were sent.
 
-**[Transmission Control Protocol (TCP) handshake](https://www.techopedia.com/definition/10339/three-way-handshake)** -
-A TCP handshake or three-way handshake is the first part in a three part process
-for TCP data transfer between a local host/client and a server. The handshake is
-a three-step method that requires both the client and server to exchange SYN and
-ACK (acknowledgment) packets to establish a connection before actual data
+A **[Transmission Control Protocol (TCP) handshake](https://www.techopedia.com/definition/10339/three-way-handshake)**
+is the first part in a three part process
+for TCP data transfer 
+between a local host/client and a server. 
+The handshake is a three-step method 
+that requires both the client 
+and server to exchange SYN 
+and ACK (acknowledgment) packets 
+to establish a connection before actual data
 communication begins.
