@@ -129,10 +129,7 @@ rectangles or boxes. Each box consists of: margins, borders, padding, and the
 actual content.
 
 See:
-https://en.wikipedia.org/wiki/CSS_box_model <br />
-also:
-
-
+https://en.wikipedia.org/wiki/CSS_box_model
 ### Customer relationship management (CRM)
 
 A CRM system allows organisations to
