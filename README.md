@@ -3,11 +3,11 @@
 # Technical Glossary
 
 This glossary is ever-evolving 
-and relies on the contributions 
-of people like _you_ 
-for new word suggestions ❤️. <br />
+and relies on contributions <br />
+from people like _you_ 
+for improvements and new word/term suggestions ❤️. <br />
 If you don't find the technical term you 
-would like a definition for,
+you are searching for, <br />
 please create an issue: 
 [github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new) 
 
@@ -18,46 +18,86 @@ please create an issue:
 
 ### Why?
 
-Have you ever learnt something cool in coding without knowing what it's actually
-called? Or have you ever been reading about a concept only to get lost in the
-number of acronyms and other technical words used to describe what you're
-learning about? 🤔
+Have you ever learnt something new 
+without knowing what it's actually called? 
+Or have you ever been reading about a concept 
+only to get lost in the number of acronyms 
+and other technical words 
+used to describe what you're learning about? 🤔
 
-This resource has been created to provide quick access, simple and easy to
-understand definitions to stop big words getting in the way of what could be
-happy learning :blush: :muscle:
+This resource provides quick access, 
+simple and easy to understand definitions 
+to stop big words getting in the way of what could be
+happy learning 😊
 
 ### What?
 
 A technical glossary for key words
 you will encounter in your journey through learning creative technology.
-These definitions are deliberately succinct,
+These definitions are _deliberately_ succinct,
 they aim to be easy to understand and bite-sized for quick access.
+In some cases we include links where you can read more
+on a given topic.
 
 ### How?
 
-Scan down the alphabetically ordered list to learn about key words or open an
-issue with more key word suggestions.
+Scan down the alphabetically ordered list 
+to learn about key words. 
+If you don't find the word you're looking for,
+or want to _expand_ on a definition,
+please 
+[open an issue](https://github.com/dwyl/technical-glossary/issues)
+with your questions / suggestions.
 
-**Adaptive Web Design (AWD)** - encourages the creation of several versions of a
-web page for a specified number of device dimensions. Which template to display
-is determined in the HTTP GET request which recognises the screen size of the
-device. Adaptive Web Design was introduced to deal with mobile browsing when
-most sites were optimised for desktop only. As devices now exist in many sizes
-and dimensions from different mobile brands through tablets to desktops,
-**Responsive Web Design** has become a popular and more flexible alternative.
+### Adaptive Web Design
 
-**Authentication** - the process of verifying that you are who you say you are
+**Adaptive Web Design (AWD)** encourages the creation 
+of several versions of a web page 
+for a specified number of device dimensions. 
+Which template to display
+is determined in the HTTP GET request 
+which recognises the screen size of the device. 
+_Adaptive_ Web Design was introduced 
+to deal with mobile browsing 
+when most sites were optimised for desktop only. 
+<!-- As devices now exist in many dimensions 
+from different mobile brands through tablets to desktops,
+**Responsive Web Design** 
+has become a popular and more flexible alternative. -->
+
+### Authentication
+
+**Authentication** is the process of verifying 
+that you are who you say you are
 E.g. when you login to your email you use a password to authenticate your
-identity. Other methods for authentication include using an ID card or
+identity. 
+Other methods for authentication include using an ID card or
 fingerprint/biometric method.
 
-**Authorization** - check that you are authorised (have permission) to perform a
-certain action or to see a given page. E.g. admin users are authorised to create
-new users on the website.
+> **Note**: the authentication experience 
+> can be a significant source 
+> of frustration both as person _using_ 
+> a digitial product and for the _engineers_ building it.
+> We decided to build our own 
+> **_Single_ Environment Variable**<sup>TM</sup> 
+> drop-in solution to the problem:
+> [dwyl/**auth**](https://github.com/dwyl/auth)
 
-**Declarations** - in JavaScript declarations are `var`, `const` and `let` for
-the creation of variables, constants and lexically scoped variables.
+### Authorization
+
+**Authorization** is checking that the person 
+is authorised (has permission) 
+to _access_ a given page/resource
+or  to perform a certain action in an App.
+e.g: a person with `admin` permissions 
+is authorised to view logs in the App.
+
+### Declarations
+
+In `JavaScript` **declarations** 
+are `var`, `const` and `let` 
+for the creation of variables, constants 
+and lexically scoped variables.
 
 **Closure** - the scope where a variable can be accessed. A function used within another function can access the parent function's variables since its scope extends to its parent.
 
@@ -255,10 +295,15 @@ content and a `<footer>` should appear at the end of the page.
 
 A **spike** is a product development method 
 that uses the **_simplest_ possible experiment** 
-to explore potential solutions.
+to explore potential solutions to a problem.
 It can be just a basic design/interface test (wireframe)
-or a technical exploration often called a proof of concept (POC).
+or a technical exploration often called a **proof of concept** (POC).
 See: https://en.wikipedia.org/wiki/Spike_(software_development)
+
+> Remember a [problem well-stated is half solved](https://youtu.be/wO1WVguNQAM)
+> so define the problem you're trying to solve with your spike
+> _before_ attempting to solve it.
+> e.g: by creating an issue to capture the requirements.
 
 **`@dwyl`** our **spike** mini-projects 
 are usually **time-boxed** 
@@ -267,16 +312,26 @@ The **objective** is to **capture the _learning_**
 as much as it is to test the interface or technical implementation.
 Therefore we always create a new GitHub repo to _capture_ the experiment.
 Sometimes we will include the word "spike" in the repo,
-e.g: https://github.com/dwyl?q=spike
+e.g: 
+[dwyl?q=**spike**](https://github.com/dwyl?q=spike)
 Other times, we will _expand_ the repo into an **_example_ app**
 that is more of a **tutorial** that _anyone_ can follow,
-e.g: https://github.com/orgs/dwyl/repositories?q=example
+e.g: 
+[dwyl/repositories?q=**example**](https://github.com/orgs/dwyl/repositories?q=example)
+We have _plenty_ of recent examples of single-feature
+spike experiments,
+but we have been capturing our learning this way for a long time,
+e.g: 
+[dwyl/**meteor-search**](https://github.com/dwyl/meteor-search).
 
 However much detail you include in your spike,
-remember that the objective of the experiement is 
-_communicating_ what you tried.
+remember that the objective is to
+**_communicate_ what you tried**
+so that other people can **_replicate_ the experiment**.
 It's not enough for _you_ to know that it worked (or failed),
 you need to **share _everything_ you learned** along the way.
+If you skip steps in your log of the spike
+so other people 
 
 ### Syntactic Sugar
 
@@ -302,7 +357,7 @@ for your project, if you take "shortcuts" to implement a feature quickly (e.g:
 by skipping tests) you will pay for it later and usually with "interest". For
 more detail see: https://github.com/dwyl/product-owner-guide#what-is-technical-debt
 
-## Transmission Control Protocol (TCP)
+### Transmission Control Protocol (TCP)
 
 **[Transmission Control Protocol (TCP)](https://www.webopedia.com/TERM/T/TCP.html)**
 is a protocol which exists to enable the establishment of a connection and
