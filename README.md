@@ -5,18 +5,18 @@
 This glossary is ever-evolving 
 and relies on contributions <br />
 from people like _you_ 
-for improvements and new word/term suggestions ❤️. <br />
-If you don't find the technical term you 
+for improvements and new term suggestions ❤️. <br />
+If you don't find the word or technical term you 
 you are searching for, <br />
 please create an issue: 
-[github.com/dwyl/technical-glossary/issues/](https://github.com/dwyl/technical-glossary/issues/new) 
+[github.com/dwyl/**technical-glossary/issues**](https://github.com/dwyl/technical-glossary/issues/new) 
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/technical-glossary/issues)
 [![HitCount](http://hits.dwyl.com/dwyl/technical-glossary.svg)](http://hits.dwyl.com/dwyl/technical-glossary)
 
 </div>
 
-### Why?
+## Why? 🤷‍♀️
 
 Have you ever learnt something new 
 without knowing what it's actually called? 
@@ -30,7 +30,7 @@ simple and easy to understand definitions
 to stop big words getting in the way of what could be
 happy learning 😊
 
-### What?
+## What? 📝
 
 A technical glossary for key words
 you will encounter in your journey through learning creative technology.
@@ -39,7 +39,7 @@ they aim to be easy to understand and bite-sized for quick access.
 In some cases we include links where you can read more
 on a given topic.
 
-### How?
+## How?
 
 Scan down the alphabetically ordered list 
 to learn about key words. 
@@ -99,13 +99,19 @@ are `var`, `const` and `let`
 for the creation of variables, constants 
 and lexically scoped variables.
 
-**Closure** - the scope where a variable can be accessed. A function used within another function can access the parent function's variables since its scope extends to its parent.
+### Closure
 
-In this example, the variable `color` is accessible to the function `displayColor()`.
+The scope where a variable can be accessed. 
+A function used within another function 
+can access the parent function's variables 
+since its scope extends to its parent.
+
+In this example, the variable `color` 
+is accessible to the function `displayColor()`.
 
 ```js
-function color() {
-    var color = 'red';
+function showColor() {
+    const color = 'red';
     function displayColor() {
         alert(color);
     }
@@ -113,30 +119,67 @@ function color() {
 }
 ```
 
-**CSS Box Model** - the concept that in HTML all elements are contained within
+See:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+### CSS Box Model
+
+The concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
 actual content.
 
-**Customer relationship management (CRM)** - a CRM system allows businesses to
-manage business relationships and the data and information associated with them.
-E.g. using CRM to track holiday bookings for a holiday bookings site. The CRM
-would have information on the customer and the trip they’re planning/ have
-booked and any staff members or actions that may need taking to progress or
-confirm their booking.
+See:
+https://en.wikipedia.org/wiki/CSS_box_model <br />
+also:
 
-**Create, Read, Update, and Delete (CRUD)** - CRUD refers to the 4 basic
-operations you can perform on data in a relational database application. Create
-a new data entry, read or retrieve existing data from the database, update the
-value of an existing piece of data or delete an existing piece of data.
 
-**Cross-Origin Resource Sharing (CORS)** - is a specification that allows
-specified resources on a web page to be requested from another domain outside
-the domain from which the first resource was served. E.g. uploading images using
-different domains using Amazon S3. For more about origin policies see
+### Customer relationship management (CRM)
+
+A CRM system allows organisations to
+manage customer relationships 
+and the data and information associated with them.
+Typically a CRM is used for storing contact data 
+and the log of communication between a business and its' cusotmers.
+But increasingly CRMs are used for other functions in businesses
+such as sales tracking, customer service and customer portals.
+
+See: 
+https://en.wikipedia.org/wiki/Customer_relationship_management
+
+
+### Create, Read, Update, and Delete (CRUD)
+
+CRUD refers to the 4 basic
+operations you can perform 
+in a database 
+or application that process data. 
+Create a new data entry, 
+read or retrieve existing data from the database, 
+update the value of an existing piece of data 
+or delete an existing item of data.
+
+See:
+https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+
+
+### Cross-Origin Resource Sharing (CORS)
+
+**CORS** is a specification that allows
+specified resources on a web page 
+to be requested from another domain outside
+the domain from which the first resource was served. 
+E.g. uploading images using different domains using Amazon S3. 
+For more about origin policies see
 'Same-origin Policy'.
+See:
+https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
 
-**[Destructuring Assignment](https://en.wikipedia.org/wiki/JavaScript_syntax#Destructuring_assignment)** - 
-the ability to unpack and assign variables when there are multiple parameters.
+
+### Destructuring Assignment
+
+[**Destructuring Assignment**](https://en.wikipedia.org/wiki/JavaScript_syntax#Destructuring_assignment)
+is the ability to unpack and assign variables 
+when there are multiple parameters.
 
 A way to simply assign the variables and then swap their values.
 ```js
@@ -152,25 +195,47 @@ let obj = { 'a': 1, 'b': {'b1': '1.1'}}
 let {a, b, b:{b1}} = obj
 // a = 1, b = {'b1': '1.1'}, b1 = 1.1
 ```
-There is an extensive list found [here](https://stackoverflow.com/questions/54605286/what-is-destructuring-assignment-and-its-uses) for more examples.
 
-**Domain Name** - the characters/words used to identify a website after `http://` or
-`www.`. The domain name consists of two parts. Take this example:
-`https://dwyl.com`, `dwyl` makes up the **second level domain (SLD)** which is
-then followed by `.com` which what is known as the **top level domain (TLD)** or
-**parent domain**. Other examples of top level domains are: `.org`, `.co.uk`
-`.io`. Domain names are the more memorable and user-friendly representation of a
-website's **IP address**. Domain names are registered under the **Domain Name
-System (DNS)**.
+There is an extensive list of examples on this StackOverflow answer:
+https://stackoverflow.com/questions/54605286/destructuring-assignment-uses 
 
-**Domain Name System (DNS)** - a distributed global directory of website domain
-names (and other internet resources). The directory stores already registered
+### Domain Name
+
+The characters/words used to identify a website 
+after `https://` or `www.`. 
+The domain name consists of two parts. 
+Take this example:
+`https://dwyl.com`, 
+`dwyl` makes up the **second level domain (SLD)** 
+which is then followed by `.com` 
+which what is known as the **top level domain (TLD)** 
+or **parent domain**. 
+Other examples of top level domains are: 
+`.org`, `.co.uk` or `.io`. 
+Domain names are the more memorable 
+and user-friendly representation of a website's **IP address**. 
+Domain names are registered under the **Domain Name System (DNS)**.
+
+### Domain Name System (DNS)
+
+A distributed global directory 
+of website domain names (and other internet resources). 
+The directory stores already registered
 domain names along with their corresponding IP addresses.
 
-**[Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)** - Uses 16 different symbols. "0"-"9" to represent the values 0 to 9 and "A"-"F" ("a"-"f" is acceptable too) to represent the values 10 to 15. It's common to use
-hexadecimals when working in CSS to assign colors to your elements.
+### Hexadecimal
 
-The hexadecimal for dwyl's logo color is #4bc0a9 (teal).
+**[Hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal)**
+Uses 16 different symbols: "0"-"9" and "A"-"F" 
+to encode data.
+It's common to use hexadecimals 
+when working in CSS 
+to assign colors to your elements.
+
+The hexadecimal for dwyl's logo color is 
+[`#4bc0a9`](https://color-hex.org/color/4bc0a9) 
+(teal).
+
 To convert the hexadecimal into RGB values, do the following:
 ```
 R = 4b
@@ -188,12 +253,18 @@ Blue: 10 * (16^1) + 9 * (16^0) = 169
 ```
 Hex: #4bc0a9 is RGB: 75, 192, 169.
 
+### Hoisting
 
-**Hoisting** - Hoisting is JavaScript's default behaviour of moving `var`
-declarations to the top of the current **scope**  when your code is run. What
-this means is that whatever line your write a `var` declaration on e.g. `var x;`,
-when your code is run it will automatically be lifted and read as if it were
-written on the top lines of your current **scope** (to the top of the current
+**Hoisting** is JavaScript's default behaviour 
+of moving `var` declarations 
+to the top of the current **scope** 
+when your code is run. 
+What this means is that whatever line you write a `var` declaration on 
+e.g. `var x;`,
+when your code is run 
+it will automatically be lifted 
+and read as if it were written on the top lines of your current **scope** 
+(to the top of the current
 script or the current function).
 
 This means that you can use `var`'s higher up in the code before the line you've
@@ -211,7 +282,19 @@ x = "hello";
 console.log(x)     // logs 'hello'
 ```
 
-**[Higher-order Function](https://en.wikipedia.org/wiki/Higher-order_function)** - Functions that take other functions as parameters and/or return a function. Some examples of these types of functions are the [`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) method used for arrays. They both accept a function to use on the elements in the given array.
+This is obviously confusing/undesireable code,
+please don't do this!
+
+### Higher-order Function
+
+**[Higher-order Function](https://en.wikipedia.org/wiki/Higher-order_function)** 
+are functions that take other functions as parameters 
+and/or return a function. 
+Some examples of these types of functions are the 
+[`map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and 
+[`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) 
+method used for arrays. 
+They both accept a function to use on the elements in the given array.
 
 ```js
 // perform an action twice
@@ -227,29 +310,65 @@ function func (value) {
 console.log(twice(func, 1)); // 7
 console.log(twice(func, 7)); // 13
 ```
-Not to be confused with pure functions, [this comment](https://github.com/dwyl/learn-redux/issues/40#issuecomment-272489779) explains the difference between the variations.
 
-**Hypertext Transfer Protocol (HTTP)** - the set of rules for transferring files
-(text, graphic images, sound, video, and other multimedia files) on the World
-Wide Web. When you enter http:// in your address bar in front of the domain, it
-tells the browser to connect over HTTP.
+Not to be confused with "pure" functions.
+To undersand the difference,
+please see:
+[dwyl/learn-redux/issues/40](https://github.com/dwyl/learn-redux/issues/40#issuecomment-272489779) 
 
-**Initialisation** - defining a variable and providing it with an initial value:
-e.g. `var x = 1;`.
 
-**Internet Protocol (IP) Address** - a unique series of numbers or hexadecimal
+### Hypertext Transfer Protocol (HTTP)
+
+**Hypertext Transfer Protocol (HTTP)** 
+is the set of rules for transferring files
+(text, graphic images, sound, video, and other multimedia files) 
+on the World Wide Web. 
+When you enter http:// in your address bar in front of the domain, 
+it tells the browser to connect over HTTP.
+
+### Initialisation
+
+Defining a variable 
+and providing it with an initial value:
+e.g: 
+```js
+var x = 1;
+```
+
+### Internet Protocol (IP) Address
+
+A unique series of numbers or hexadecimal
 digits used to identify a website.
 
-**Microservices** - the practice of running multiple web/application servers
-simultaneously. It is a widely accepted/used application architecture used in
-most companies. Lambda Functions are an example of a micro Node.js Server.   
+See:
+https://en.wikipedia.org/wiki/IP_address
 
-**Polymorphism** - the ability for an object to take on many forms or types e.g.
-when a parent class is used to refer to a child class object. **Operator
-overloading** is one form of polymorphism. It is not used in Javascript but is a
+### Microservices
+
+The practice of splitting the business logic of your App/business
+into multiple distinct self-contained services 
+and deploying them individually. 
+It is a widely accepted/used application architecture. 
+Lambda Functions are an example of a micro Node.js Server.
+
+See:
+https://en.wikipedia.org/wiki/Microservices
+
+### Polymorphism
+
+The ability for an object to take on many forms or types 
+e.g:
+when a parent class is used to refer to a child class object. 
+**Operator overloading** is one form of polymorphism. 
+It is not used in Javascript but is a
 feature of C++, Scala, Ruby, Haskell and Rust.
 
-**Progressive Web App (PWA)** - PWAs are traditional websites that are enhanced
+See: 
+https://en.wikipedia.org/wiki/Polymorphism_(computer_science)
+
+### Progressive Web App (PWA)
+
+PWAs are traditional websites that are enhanced
 with modern web technologies, allowing them to provide a more app-like
 experience. They offer functionality such as being saved as a tile on your
 mobile home screen, working offline and push notifications. The “progressive”
@@ -258,38 +377,78 @@ they’ll also work in older browsers that don’t support the new features. Unl
 native apps, they don't have to be updated/listed in the app store although it
 is possible to list them in the app store when this is desired.
 
+### Regression Testing
+
 **[Regression Testing](https://www.softwaretestingmaterial.com/regression-testing/)** -
 the re-running of existing tests to ensure that new changes/fixes have not
 broken any existing functionality. We should perform regression testing any time
 we modify an application, automated testing is a convenient way to achieve this.
 
-**REPL (READ, EVAL, PRINT, LOOP)** - a REPL is an interactive toplevel or
-language shell. A simple, interactive computer programming environment that
-takes single user inputs (i.e. single expressions), evaluates them, and returns
-the result to the user. They are a handy tool for experimenting with
-functionality outside of the context of a project.
+### REPL
 
-**Responsive Web Design (RWD)** - is designing one version of a web page which
-reorders and resizes content in response to the size of a browser **at any given
-point**, not just predetermined device sizes. This means the design of the site
-is optimised for all screen sizes. See Adaptive Design for another approach to
+**REPL (READ, EVAL, PRINT, LOOP)** 
+is an interactive programming language shell. 
+A simple, interactive computer programming environment 
+that takes single user inputs (i.e. single expressions), 
+evaluates them, and returns the result to the user. 
+They are a handy tool for experimenting with
+functionality outside of the context of a project.
+_Most_ programming languages have them.
+In `JavaScript` you can type `node` in your terminal
+and then type any expression e.g:
+
+
+```js
+> console.log("Hello World!")
+Hello World!
+```
+
+Similarly in `Elixir` we have `iex`:
+
+```sh
+iex
+iex(1)> IO.inspect("hello world")
+"hello world"
+```
+
+### Responsive Web Design
+
+**Responsive Web Design (RWD)**
+is the practice of designing one version 
+of a web page which reorders and resizes content 
+in response to the size of a browser **at any given point**, 
+not just predetermined device sizes. 
+This means the design of the site
+is optimised for all screen sizes. 
+See Adaptive Design for another approach to
 designing.
 
-**Same-origin Policy** - Under this security policy implemented by web browsers,
-a document (i.e. like a web page) hosted on server A can only interact with
-other documents that are also on server A. In short, the same-origin policy
-enforces that documents that interact with each other have the same origin.
+### Same-origin Policy
 
-**Search Engine Optimisation (SEO)** - is the process of improving the visibility
-of a website or web page in unpaid/organic search engine results. There are many
-aspects to SEO and search engines change how it's calculated over time. It may
-include the use of key words on a page, how often you add/edit content on your
-site, to the way other sites link to you on the web.
+The **security policy** implemented by web browsers,
+whereby a document (i.e. like a web page) hosted on a server 
+can only interact with other documents the _same_ server. 
 
-**Semantic HTML** - semantic HTML is the use of HTML elements that accurately
-describe what they contain/are being used for E.g. a `<p>` tag indicates that the
-text within it is a paragraph whereas a `<nav>` tag should contain navigation
-content and a `<footer>` should appear at the end of the page.
+### Search Engine Optimisation (SEO)
+
+**Search Engine Optimisation (SEO)** 
+is the process of improving the visibility
+of a website or web page 
+in unpaid/organic search engine results. 
+There are many aspects to SEO 
+and search engines change how it's calculated over time. 
+It may include the use of key words on a page, 
+how often you add/edit content on your site, 
+to the way other sites link to you on the web.
+
+### Semantic HTML
+
+**Semantic HTML** is the use of HTML elements
+that accurately describe 
+what they contain/are being used for 
+E.g: a `<p>` tag indicates that the text within it is a paragraph 
+whereas a `<nav>` tag should contain navigation content 
+and a `<footer>` should appear at the end of the page.
 
 ### Spike
 
