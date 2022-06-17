@@ -122,7 +122,7 @@ function showColor() {
 See:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-### CSS Box Model
+### CSS Box Model
 
 The concept that in HTML all elements are contained within
 rectangles or boxes. Each box consists of: margins, borders, padding, and the
@@ -147,7 +147,7 @@ See:
 https://en.wikipedia.org/wiki/Customer_relationship_management
 
 
-### Create, Read, Update, and Delete (CRUD)
+### Create, Read, Update, and Delete (CRUD)
 
 CRUD refers to the 4 basic
 operations you can perform 
