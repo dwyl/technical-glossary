@@ -77,7 +77,7 @@ fingerprint/biometric method.
 > **Note**: the authentication experience 
 > can be a significant source 
 > of frustration both as person _using_ 
-> a digitial product and for the _engineers_ building it.
+> a digital product and for the _engineers_ building it.
 > We decided to build our own 
 > **_Single_ Environment Variable**<sup>TM</sup> 
 > drop-in solution to the problem:
@@ -136,7 +136,7 @@ A CRM system allows organisations to
 manage customer relationships 
 and the data and information associated with them.
 Typically a CRM is used for storing contact data 
-and the log of communication between a business and its' cusotmers.
+and the log of communication between a business and its' customers.
 But increasingly CRMs are used for other functions in businesses
 such as sales tracking, customer service and customer portals.
 
@@ -279,7 +279,7 @@ x = "hello";
 console.log(x)     // logs 'hello'
 ```
 
-This is obviously confusing/undesireable code,
+This is obviously confusing/undesirable code,
 please don't do this!
 
 ### Higher-order Function
@@ -309,7 +309,7 @@ console.log(twice(func, 7)); // 13
 ```
 
 Not to be confused with "pure" functions.
-To undersand the difference,
+To understand the difference,
 please see:
 [dwyl/learn-redux/issues/40](https://github.com/dwyl/learn-redux/issues/40#issuecomment-272489779) 
 
