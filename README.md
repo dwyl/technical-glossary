@@ -340,6 +340,37 @@ digits used to identify a website.
 See:
 https://en.wikipedia.org/wiki/IP_address
 
+### JSON
+
+**JSON (JavaScript Object Notation)** is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+
+JSON syntax is derived from JavaScript object notation syntax:
+- Data is in name/value pairs
+- Data is separated by commas
+- Curly braces hold objects
+- Square brackets hold arrays
+
+In JSON, values must be one of the following data types:
+- a string
+- a number
+- an object
+- an array
+- a boolean
+- null
+
+Example of JSON data:
+```js
+{
+    "id": 101,
+    "fullName": "John Doe",
+    "skills": ["Javascript", "JAVA", "Python"],
+    "isVerified": true
+}
+```
+
+See: https://en.wikipedia.org/wiki/JSON
+
+
 ### Microservices
 
 The practice of splitting the business logic of your App/business
